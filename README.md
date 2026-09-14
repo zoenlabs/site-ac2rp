@@ -10,7 +10,7 @@ Página estática, responsiva e sem dependências de build. Derivada da estrutur
 
 ## Pendências para validar antes de publicar
 
-- [ ] **Domínio**: assumido `ac2rptecnologia.com.br` (sem DNS no momento da criação). Se for outro, trocar em `index.html`, `termos/`, `politica-de-privacidade/`, `sitemap.xml`, `robots.txt` e `vercel.json`.
+- [x] **Domínio**: `ac2rptecnologia.com.br` (confirmado; DNS na Cloudflare).
 - [ ] **WhatsApp**: número herdado do Edson (+55 19 99573-5894) em `index.html` e em `WHATS_NUMBER` no `assets/js/main.js`.
 - [ ] **E-mail**: assumido `contato@ac2rptecnologia.com.br`.
 - [ ] **Seção "Muito prazer"**: texto institucional genérico. Definir se terá fundador nomeado, foto e história.
