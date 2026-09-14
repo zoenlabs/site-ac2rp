@@ -1,0 +1,13 @@
+# Claude Code / ferramentas locais
+.claude/
+scratchpad/
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*~
+
+# Dependências (caso venham a existir)
+node_modules/

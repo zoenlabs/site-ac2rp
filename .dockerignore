@@ -1,0 +1,9 @@
+# Arquivos que não fazem parte do site publicado
+# (nginx.conf NÃO entra aqui — o Dockerfile precisa copiá-lo)
+README.md
+*.md
+.git
+.gitignore
+.claude
+memory
+scratchpad

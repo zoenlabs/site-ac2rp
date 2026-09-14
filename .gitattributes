@@ -1,0 +1,12 @@
+# Normaliza finais de linha para LF (a VPS/Docker é Linux)
+* text=auto eol=lf
+
+# Binários (não normalizar)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.ico  binary
+*.svg  text
+*.mp4  binary
+*.woff  binary
+*.woff2 binary

@@ -1,0 +1,8 @@
+services:
+  ac2rp:
+    build: .
+    image: ac2rp-site:latest
+    container_name: ac2rp-site
+    ports:
+      - "8080:80"
+    restart: unless-stopped

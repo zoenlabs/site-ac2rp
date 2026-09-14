@@ -1,0 +1,44 @@
+# robots.txt — AC2RP
+# Permite indexação por buscadores tradicionais e por motores de IA (GEO).
+
+User-agent: *
+Allow: /
+
+# Motores de busca generativos / IA (queremos ser citados/encontrados)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://ac2rptecnologia.com.br/sitemap.xml
