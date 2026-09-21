@@ -466,6 +466,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .footer__social a:hover { color: var(--ink); background: var(--brand); border-color: var(--brand); transform: translateY(-3px); }
 .footer__cta p { color: var(--on-dark-soft); font-size: .96rem; margin-bottom: 1.1rem; }
 
+.footer__legalinfo { padding-top: 1.4rem; border-top: 1px solid var(--border-dark); }
+.footer__company { font-size: .88rem; line-height: 1.7; color: var(--on-dark-soft); }
+.footer__company strong { color: var(--on-dark); font-weight: 600; }
+.footer__company a { color: var(--on-dark-soft); text-decoration: underline; text-underline-offset: 2px; }
+.footer__company a:hover { color: var(--on-dark); }
 .footer__bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; padding-block: 1.6rem; border-top: 1px solid var(--border-dark); font-size: .88rem; color: var(--text-muted); }
 .footer__made { color: var(--on-dark-soft); }
 .footer__legal { display: flex; gap: 1.2rem; flex-wrap: wrap; }

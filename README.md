@@ -8,6 +8,17 @@ Landing page de posicionamento digital da **AC2RP Tecnologia**: transformação 
 
 Página estática, responsiva e sem dependências de build. Derivada da estrutura do site da ZoenLabs, com marca, paleta e conteúdo próprios.
 
+## Objetivo do site
+
+O site existe para sustentar a verificação da conta de desenvolvedor Apple (Apple Developer Program, inscrição como organização). Por isso mantém: identificação da empresa e contato no rodapé, página de suporte em `/suporte`, Termos de Uso e Política de Privacidade coerentes com a atividade, e menção explícita a desenvolvimento de aplicativos iOS e Android.
+
+### Antes de enviar a verificação para a Apple
+
+- [ ] **Completar a identificação legal no rodapé** do `index.html`: razão social, CNPJ e endereço completo, exatamente como constam no D-U-N-S. Há um comentário HTML marcando o ponto exato.
+- [ ] **Conferir o telefone**: o site publica +55 19 99573-5894. Precisa ser o mesmo número do cadastro D-U-N-S, porque a Apple liga para ele.
+- [ ] **Conferir a razão social** usada no D-U-N-S e no CNPJ contra o nome exibido no site.
+- [ ] **Foro nos Termos**: está como "comarca da sede da AC2RP Tecnologia". Trocar pela comarca real, se preferir nomear.
+
 ## Pendências para validar antes de publicar
 
 - [x] **Domínio**: `ac2rptecnologia.com.br` (confirmado; DNS na Cloudflare).
